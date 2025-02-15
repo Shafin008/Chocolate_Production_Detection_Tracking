@@ -1,5 +1,13 @@
 # Chocolate_Production_Detection_Tracking
+
+<p>
+  <video width="320" height="240" controls>
+  <source src="Choco-ObjDet-Track.mp4" type="video/mp4">
+</video>
+</p>
+
 **Note: Please Run this on your local device as streamlit doesn't support gpu on deployment**
+
 ## Dataset: 
 - The dataset was created from this chocolate production [video](https://www.youtube.com/watch?v=BV6-aH2C4S4&t=11s&pp=ygUUY2hvY29sYXRlIHByb2R1Y3Rpb24%3D)
 - First, I created 5 smaller videos from the original video
