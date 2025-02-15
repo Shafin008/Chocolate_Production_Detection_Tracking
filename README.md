@@ -1,10 +1,6 @@
 # Chocolate_Production_Detection_Tracking
 
-<p>
-  <video width="320" height="240" controls>
-  <source src="Choco-ObjDet-Track.mp4" type="video/mp4">
-</video>
-</p>
+[Watch the video](https://github.com/Shafin008/Chocolate_Production_Detection_Tracking/blob/master/Choco-ObjDet-Track.mp4)
 
 **Note: Please Run this on your local device as streamlit doesn't support gpu on deployment**
 
