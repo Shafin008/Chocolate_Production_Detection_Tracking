@@ -1,6 +1,6 @@
 # Chocolate_Production_Detection_Tracking
 
-**See The Video below to see the app**
+**Click the video below to see how the app works**
 
 [![Watch the Video](https://img.youtube.com/vi/BV6-aH2C4S4/0.jpg)](https://youtu.be/NVoCSJQ8zeY)
 
