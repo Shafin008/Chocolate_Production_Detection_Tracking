@@ -50,14 +50,25 @@ Here are the steps:
     4. **Extract Detection Information** (`bbox_xyxys`, `confidences`, `labels`)
     5. **Draw Bounding Boxes and Labels**
    
-- For Video Detection & Tracking Function (`vid_app`)
-  1. **Load** Video
-  2. Get **Video Properties** (`width & height`) and Select Specific Class
-  3. Initialize **Object Tracker** (`BYTETracker` to track objects across frames)
-  4. Initialize **Annotators**(`box_annotator`, `label_annotator`)
-  5. Process Video Frame by Frame and Detect Objects in Each Frame
-  6. Draw Bounding Boxes & Labels with `tracker ID`, `class name`, and `confidence score`.
-       
+  - For Video Detection & Tracking Function (`vid_app`)
+    1. **Load** Video
+    2. Get **Video Properties** (`width & height`) and Select Specific Class
+    3. Initialize **Object Tracker** (`BYTETracker` to track objects across frames)
+    4. Initialize **Annotators**(`box_annotator`, `label_annotator`)
+    5. Process Video Frame by Frame and Detect Objects in Each Frame
+    6. Draw Bounding Boxes & Labels with `tracker ID`, `class name`, and `confidence score`.
+
+### Creating the app
+
+Python file: `app.py`
+Here are the steps:
+  1. Setting Up the **App Title** and Customizing **Sidebar** Width (fixed width of `300px` whether the sidebar is expanded or collapsed.)
+  2. Creating the **Sidebar Selection for Pages**. Adding a dropdown menu in the sidebar to select between three pages: `App Description`, `Run on Image`, `Run on Video`
+  3. First Page (`App Description`): Displays a short description of the app.
+  4. Second Page (`Run on Image: Image Detection`): Displays the `selected image` in the `sidebar`. Calls the `image_app function` to run object detection on the image.
+  5. Third Page (`Run on Video: Object Tracking & Detection`): Calls `vid_app function` to process the video and update the displayed frame and KPIs.
+  6. Running the `Streamlit App`
+
 
 
 
