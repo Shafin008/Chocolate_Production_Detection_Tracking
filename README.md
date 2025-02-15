@@ -11,6 +11,7 @@
 In this step I created the images from the videos.
 
 Python file: `vid_to_image.py`
+
 Here are the steps:
   - The script scans the `"videos"` folder for `.mov` and `.mp4` files.
   - It splits them into **3 training** videos and **2 test videos**.
@@ -22,6 +23,7 @@ Here are the steps:
 In this step I created the images from the videos.
 
 Python file: `RealTimeObjectDetectionAndTracking.ipynb`
+
 Here are the steps:
   - **Installed** dependencies (`roboflow`, `ultralytics`, `supervision`)
   - **Downloaded** and **prepared dataset** from **Roboflow**.
@@ -41,6 +43,7 @@ Here are the steps:
 ### Necessary Steps before creating app
 
 Python file: `app_vid.py`
+
 Here are the steps:
   - Install and Import necessary modules
   - For Image Detection Function (`image_app`)
@@ -61,6 +64,7 @@ Here are the steps:
 ### Creating the app
 
 Python file: `app.py`
+
 Here are the steps:
   1. Setting Up the **App Title** and Customizing **Sidebar** Width (fixed width of `300px` whether the sidebar is expanded or collapsed.)
   2. Creating the **Sidebar Selection for Pages**. Adding a dropdown menu in the sidebar to select between three pages: `App Description`, `Run on Image`, `Run on Video`
