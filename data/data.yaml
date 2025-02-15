@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Choco']
+
+roboflow:
+  workspace: shafin-mahmud-jalal
+  project: chocolate-tracking-2vuqc
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shafin-mahmud-jalal/chocolate-tracking-2vuqc/dataset/4
