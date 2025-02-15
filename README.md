@@ -10,7 +10,7 @@
 ## Dataset: 
 - The dataset was created from this chocolate production [video](https://www.youtube.com/watch?v=BV6-aH2C4S4&t=11s&pp=ygUUY2hvY29sYXRlIHByb2R1Y3Rpb24%3D)
 - First, I created 5 smaller videos from the original video
-- Then, I created a python file 'vid_to_img.py' to extract image from the 3 videos of the 5, the other 2 videos were for testing
+- Then, I created a python file `vid_to_img.py` to extract image from the 3 videos of the 5, the other 2 videos were for testing
 - After that, I took those images to roboflow and annotated by auto-annotation(Auto Distil) and also by manual annotation. Rest of the info you can find [here](https://app.roboflow.com/shafin-mahmud-jalal/chocolate-tracking-2vuqc/4)
 
 ## Steps
